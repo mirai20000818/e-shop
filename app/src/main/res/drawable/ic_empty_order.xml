@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/_17sdp"
+    android:width="@dimen/_17sdp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <path
+        android:fillColor="@color/grey"
+        android:pathData="M754 242q12 0 20 8t8 20t-8 20.5t-20 8.5h-484q-12 0 -20 -8.5t-8 -20.5t8 -20t20 -8h484zM512 725q12 0 20.5 8.5t8.5 20.5t-8.5 20t-20.5 8h-242q-12 0 -20 -8t-8 -20t8 -20.5t20 -8.5h242zM790 0q97 0 165.5 68.5t68.5 165.5v479q0 93 -65 158l-88 88q-65 65 -158 65 h-479q-97 0 -165.5 -68.5t-68.5 -165.5v-556q0 -97 68.5 -165.5t165.5 -68.5h556zM961 758l4 -16h-129q-39 0 -66.5 27.5t-27.5 66.5v129l16 -4q41 -12 73 -43l87 -87q31 -31 43 -73zM967 685v-451q0 -73 -52 -125t-125 -52h-556q-73 0 -125 52t-52 125v556q0 73 52 125 t125 52h451v-131q0 -62 44.5 -106.5t106.5 -44.5h131zM754 483q12 0 20 8.5t8 20.5t-8 20.5t-20 8.5h-484q-12 0 -20 -8.5t-8 -20.5t8 -20.5t20 -8.5h484z"/>
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:theme="@style/Theme.AppCompat"
+            android:id="@+id/iv_empty_image"
+            android:background="@drawable/bg_white_circle"
+            android:padding="@dimen/_36sdp"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_cart"
+            app:tint="@color/empty"/>
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_12"
+            android:gravity="center"
+            android:id="@+id/tv_empty_title"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:text="@string/empty_cart"
+            android:lineSpacingExtra="@dimen/_10sdp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

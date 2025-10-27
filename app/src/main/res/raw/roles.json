@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "vendorManager",
+    "name": "기업체책임자",
+    "permissions": {
+      "dashboard": "true",
+      "orders": "true",
+      "products": "true",
+      "notice": "true",
+      "analytics": "true",
+      "finance": "true",
+      "sale": "true",
+      "reviews": "true",
+      "staffs": "true",
+      "file": "true",
+      "logs": "true",
+      "setting": "true"
+    }
+  },
+  {
+    "slug": "vendorFinanceManager",
+    "name": "주문관리자",
+    "permissions": {
+      "dashboard": "finance",
+      "orders": "true",
+      "products": "true",
+      "notice": "finance",
+      "analytics": "true",
+      "finance": "true",
+      "sale": "true",
+      "reviews": "true",
+      "file": "true"
+    }
+  },
+  {
+    "slug": "vendorAdManager",
+    "name": "광고담당자",
+    "permissions": {
+      "dashboard": "ads",
+      "products": "true",
+      "notice": "ads",
+      "analytics": "true",
+      "sale": "true",
+      "reviews": "true",
+      "file": "true"
+    }
+  },
+  {
+    "slug": "vendorProductManager",
+    "name": "상품관리자",
+    "permissions": {
+      "products": "true",
+      "notice": "products",
+      "reviews": "true",
+      "file": "true"
+    }
+  },
+  {
+    "slug": "vendorAgent",
+    "name": "봉사원",
+    "permissions": {
+      "notice": "products",
+      "reviews": "true"
+    }
+  },
+  {
+    "slug": "vendorDeliverer",
+    "name": "송달원",
+    "permissions": {
+      "shipping": "true"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.jeil.emarket.components.viewpager.LoopViewPager
+        android:id="@+id/vp_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.jeil.emarket.components.viewpager.CircleIndicator
+        android:gravity="center"
+        android:id="@+id/ci_images"
+        android:paddingBottom="@dimen/_50sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:ci_drawable="@drawable/ic_indicator_active_lg"
+        app:ci_drawable_unselected="@drawable/ic_indicator_white_lg"
+        app:ci_height="@dimen/_15sdp"
+        app:ci_margin="@dimen/_2sdp"
+        app:ci_width="@dimen/_15sdp"/>
+</RelativeLayout>

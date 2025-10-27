@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/_3sdp"
+    android:paddingRight="@dimen/_3sdp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_33sdp"
+    android:paddingHorizontal="@dimen/_3sdp">
+    <com.jeil.emarket.components.checkbox.CheckBox
+        android:id="@+id/crb_rating"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        style="@style/CustomCheckBox"/>
+    <ProgressBar
+        android:layout_gravity="center_vertical"
+        android:id="@+id/review_rating"
+        android:layout_width="105dp"
+        android:layout_height="@dimen/_17sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:progress="100"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/bg_progress_rating"
+        android:layout_marginStart="@dimen/_32sdp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+</FrameLayout>

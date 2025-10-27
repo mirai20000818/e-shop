@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_box"
+    android:padding="@dimen/_16sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/main_space"
+    android:layout_marginRight="@dimen/main_space"
+    android:layout_marginHorizontal="@dimen/main_space">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_11_5"
+            android:layout_width="@dimen/_89sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/product_id_comma"/>
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_11_5"
+            android:textColor="@color/dark"
+            android:id="@+id/tv_product_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/_8sdp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.jeil.emarket.components.textview.TextView
+        android:textSize="@dimen/font_11_5"
+        android:textColor="@color/danger"
+        android:id="@+id/tv_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:lineSpacingExtra="@dimen/_8sdp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

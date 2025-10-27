@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/llc_analytics_category"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nsv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_space">
+                <include
+                    android:id="@+id/llc_date_picker"
+                    layout="@layout/layout_date_picker"/>
+                <include
+                    android:id="@+id/llc_analytics_chart"
+                    layout="@layout/layout_analytics_chart"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+        <include
+            android:id="@+id/empty"
+            android:visibility="gone"
+            layout="@layout/layout_empty"/>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

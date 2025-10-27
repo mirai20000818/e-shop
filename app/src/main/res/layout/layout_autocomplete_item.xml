@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/_15sdp"
+    android:paddingTop="@dimen/_6sdp"
+    android:paddingRight="@dimen/_15sdp"
+    android:paddingBottom="@dimen/_6sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/RippleStyleDark">
+    <com.jeil.emarket.components.textview.TextView
+        android:textSize="@dimen/font_11_5"
+        android:id="@+id/tv_search_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/_6sdp"/>
+</com.balysv.materialripple.MaterialRippleLayout>

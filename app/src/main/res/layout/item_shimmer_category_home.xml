@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/ll_main"
+    android:paddingTop="@dimen/_7sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/vw_img"
+        android:background="@drawable/bg_white_circle"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:backgroundTint="@color/text_bg"/>
+    <com.jeil.emarket.components.textview.TextView
+        android:textColor="@color/transparent"
+        android:gravity="center"
+        android:background="@drawable/bg_grey_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:text="@string/category_name"
+        android:backgroundTint="@color/text_bg"
+        style="@style/txt_home_category"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

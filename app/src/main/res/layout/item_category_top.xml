@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.jeil.emarket.components.textview.TextView
+        android:textSize="@dimen/font_10_5"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:id="@+id/tv_category_name"
+        android:paddingTop="@dimen/_13sdp"
+        android:paddingBottom="@dimen/_13sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingStart="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_7sdp"
+        style="@style/txt_home_category"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

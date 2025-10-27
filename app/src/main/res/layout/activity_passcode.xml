@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_top_bar"/>
+    <com.jeil.emarket.components.PasscodeView
+        android:id="@+id/pv_pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:firstInputTip="@string/please_enter_passcode"
+        app:normalStateColor="@color/dark"
+        app:numberTextColor="@color/dark"
+        app:passcodeLength="5"
+        app:wrongLengthTip="@string/please_enter_correct_length_passcode"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

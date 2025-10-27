@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/llc_search_term"
+    android:padding="@dimen/_5sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mrl_rippleRoundedCorners="@dimen/_20sdp"
+        style="@style/RippleStyleDark">
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_10"
+            android:textColor="@color/dark"
+            android:id="@+id/tv_search_term"
+            android:background="@drawable/bd_grey_ellipse"
+            android:paddingLeft="@dimen/_14sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingRight="@dimen/_14sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/_10sdp"/>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

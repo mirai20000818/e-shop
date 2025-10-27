@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:mrl_rippleColor="@color/body"
+    app:mrl_rippleRoundedCorners="@dimen/_7sdp"
+    style="@style/RippleStyleDark">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll_order_status"
+        android:background="@drawable/bg_box"
+        android:paddingTop="@dimen/_14sdp"
+        android:paddingBottom="@dimen/_14sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingVertical="@dimen/_14sdp">
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_12_5"
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_3sdp"/>
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_17"
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.balysv.materialripple.MaterialRippleLayout>

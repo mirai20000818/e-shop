@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_space"
+            android:layout_marginBottom="@dimen/main_space"
+            android:layout_marginVertical="@dimen/main_space">
+            <include
+                android:id="@+id/llc_date_picker"
+                layout="@layout/layout_date_picker"/>
+            <include
+                android:id="@+id/llc_data_table"
+                layout="@layout/layout_analytics_table"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <include
+            android:id="@+id/empty"
+            android:visibility="gone"
+            layout="@layout/layout_empty"/>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

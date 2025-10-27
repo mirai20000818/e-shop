@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/_5sdp"
+    android:width="@dimen/_5sdp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <path
+        android:fillColor="@color/body"
+        android:pathData="M455 303.5q0 -23.5 16.5 -40t40.5 -16.5t40.5 16.5t16.5 40t-16.5 40.5t-40.5 17t-40.5 -17t-16.5 -40.5zM455 720.5q0 -23.5 16.5 -40.5t40.5 -17t40.5 17t16.5 40.5t-16.5 40t-40.5 16.5t-40.5 -16.5t-16.5 -40zM455 512q0 -24 16.5 -40.5t40.5 -16.5t40.5 16.5 t16.5 40.5t-16.5 40.5t-40.5 16.5t-40.5 -16.5t-16.5 -40.5z"/>
+</vector>

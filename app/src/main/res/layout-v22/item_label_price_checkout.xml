@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_18sdp"
+    android:paddingEnd="@dimen/_19sdp"
+    android:paddingVertical="@dimen/_5sdp">
+    <com.jeil.emarket.components.textview.TextView
+        android:textSize="@dimen/font_12"
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/txt_label_lg"/>
+    <com.jeil.emarket.components.price.PriceText
+        android:id="@+id/pt_kpf_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pt_currency="kpf"
+        app:pt_size="@dimen/font_13"
+        app:pt_unit_size="@dimen/font_11"/>
+    <com.jeil.emarket.components.price.PriceText
+        android:id="@+id/pt_kpw_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        app:pt_currency="kpw"
+        app:pt_size="@dimen/font_13"
+        app:pt_unit_size="@dimen/font_11"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

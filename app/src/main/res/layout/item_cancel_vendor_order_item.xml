@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_11_5"
+            android:id="@+id/ctv_product_id"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/_6sdp"/>
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_11_5"
+            android:ellipsize="end"
+            android:id="@+id/ctv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:lineSpacingExtra="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+        <com.jeil.emarket.components.QuantityInput
+            android:id="@+id/cqi_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:qi_circle_size="@dimen/_24sdp"
+            app:qi_icon_color="@color/dark"
+            app:qi_icon_size="@dimen/_4sdp"
+            app:qi_label_size="@dimen/_13sdp"
+            app:qi_label_width="@dimen/_20sdp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:id="@+id/v_border"
+        android:background="@color/border"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

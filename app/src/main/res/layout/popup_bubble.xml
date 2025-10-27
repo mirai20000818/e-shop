@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bubble_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <view
+        android:id="@+id/triangle_view"
+        android:layout_width="10dp"
+        android:layout_height="5dp"
+        class="com.jeil.emarket.components.dialog.widget.popup.BubblePopup$TriangleView"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/ll_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

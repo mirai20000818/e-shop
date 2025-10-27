@@ -1,0 +1,1782 @@
+[
+  {
+    "name": "PY",
+    "label": "평양시",
+    "cities": [
+      {
+        "name": "PY01",
+        "label": "서성구역",
+        "dongs": [
+          {
+            "name": "PY0101",
+            "label": "긴재동"
+          },
+          {
+            "name": "PY0102",
+            "label": "남교동"
+          },
+          {
+            "name": "PY0103",
+            "label": "련못동"
+          },
+          {
+            "name": "PY0104",
+            "label": "상신동"
+          },
+          {
+            "name": "PY0105",
+            "label": "중신동"
+          },
+          {
+            "name": "PY0106",
+            "label": "하신동"
+          },
+          {
+            "name": "PY0107",
+            "label": "상흥동"
+          },
+          {
+            "name": "PY0108",
+            "label": "서산1동"
+          },
+          {
+            "name": "PY0109",
+            "label": "서산2동"
+          },
+          {
+            "name": "PY0110",
+            "label": "서천동"
+          },
+          {
+            "name": "PY0111",
+            "label": "석봉동"
+          },
+          {
+            "name": "PY0112",
+            "label": "장경1동"
+          },
+          {
+            "name": "PY0113",
+            "label": "장경2동"
+          },
+          {
+            "name": "PY0114",
+            "label": "장산동"
+          },
+          {
+            "name": "PY0115",
+            "label": "와산동"
+          }
+        ]
+      },
+      {
+        "name": "PY02",
+        "label": "모란봉구역",
+        "dongs": [
+          {
+            "name": "PY0201",
+            "label": "개선동"
+          },
+          {
+            "name": "PY0202",
+            "label": "긴마을1동"
+          },
+          {
+            "name": "PY0203",
+            "label": "긴마을2동"
+          },
+          {
+            "name": "PY0204",
+            "label": "민흥동"
+          },
+          {
+            "name": "PY0205",
+            "label": "북새동"
+          },
+          {
+            "name": "PY0206",
+            "label": "비파1동"
+          },
+          {
+            "name": "PY0207",
+            "label": "비파2동"
+          },
+          {
+            "name": "PY0208",
+            "label": "전우동"
+          },
+          {
+            "name": "PY0209",
+            "label": "전승1동"
+          },
+          {
+            "name": "PY0210",
+            "label": "전승2동"
+          },
+          {
+            "name": "PY0211",
+            "label": "흥부동"
+          },
+          {
+            "name": "PY0212",
+            "label": "인흥1동"
+          },
+          {
+            "name": "PY0213",
+            "label": "인흥2동"
+          },
+          {
+            "name": "PY0214",
+            "label": "월향동"
+          },
+          {
+            "name": "PY0215",
+            "label": "진흥동"
+          },
+          {
+            "name": "PY0216",
+            "label": "서흥동"
+          },
+          {
+            "name": "PY0217",
+            "label": "성북동"
+          },
+          {
+            "name": "PY0218",
+            "label": "장현동"
+          }
+        ]
+      },
+      {
+        "name": "PY03",
+        "label": "평천구역",
+        "dongs": [
+          {
+            "name": "PY0301",
+            "label": "미래동"
+          },
+          {
+            "name": "PY0302",
+            "label": "평천1동"
+          },
+          {
+            "name": "PY0303",
+            "label": "평천2동"
+          },
+          {
+            "name": "PY0304",
+            "label": "륙교1동"
+          },
+          {
+            "name": "PY0305",
+            "label": "륙교2동"
+          },
+          {
+            "name": "PY0306",
+            "label": "봉남동"
+          },
+          {
+            "name": "PY0307",
+            "label": "봉지동"
+          },
+          {
+            "name": "PY0308",
+            "label": "봉학동"
+          },
+          {
+            "name": "PY0309",
+            "label": "북성1동"
+          },
+          {
+            "name": "PY0310",
+            "label": "북성2동"
+          },
+          {
+            "name": "PY0311",
+            "label": "새마을1동"
+          },
+          {
+            "name": "PY0312",
+            "label": "새마을2동"
+          },
+          {
+            "name": "PY0313",
+            "label": "해운1동"
+          },
+          {
+            "name": "PY0314",
+            "label": "해운2동"
+          },
+          {
+            "name": "PY0315",
+            "label": "안산1동"
+          },
+          {
+            "name": "PY0316",
+            "label": "안산2동"
+          },
+          {
+            "name": "PY0317",
+            "label": "정평동"
+          },
+          {
+            "name": "PY0318",
+            "label": "간성동"
+          }
+        ]
+      },
+      {
+        "name": "PY04",
+        "label": "보통강구역",
+        "dongs": [
+          {
+            "name": "PY0401",
+            "label": "경흥동"
+          },
+          {
+            "name": "PY0402",
+            "label": "대보동"
+          },
+          {
+            "name": "PY0403",
+            "label": "락원동"
+          },
+          {
+            "name": "PY0404",
+            "label": "류경1동"
+          },
+          {
+            "name": "PY0405",
+            "label": "류경2동"
+          },
+          {
+            "name": "PY0406",
+            "label": "보통강1동"
+          },
+          {
+            "name": "PY0407",
+            "label": "보통강2동"
+          },
+          {
+            "name": "PY0408",
+            "label": "봉화동"
+          },
+          {
+            "name": "PY0409",
+            "label": "붉은거리1동"
+          },
+          {
+            "name": "PY0410",
+            "label": "붉은거리2동"
+          },
+          {
+            "name": "PY0411",
+            "label": "붉은거리3동"
+          },
+          {
+            "name": "PY0412",
+            "label": "서장동"
+          },
+          {
+            "name": "PY0413",
+            "label": "석암동"
+          },
+          {
+            "name": "PY0414",
+            "label": "신원동"
+          },
+          {
+            "name": "PY0415",
+            "label": "세거리동"
+          },
+          {
+            "name": "PY0416",
+            "label": "운하동"
+          }
+        ]
+      },
+      {
+        "name": "PY05",
+        "label": "중구역",
+        "dongs": [
+          {
+            "name": "PY0501",
+            "label": "역전동"
+          },
+          {
+            "name": "PY0502",
+            "label": "교구동"
+          },
+          {
+            "name": "PY0503",
+            "label": "류성동"
+          },
+          {
+            "name": "PY0504",
+            "label": "경상동"
+          },
+          {
+            "name": "PY0523",
+            "label": "경루동"
+          },
+          {
+            "name": "PY0505",
+            "label": "경림동"
+          },
+          {
+            "name": "PY0506",
+            "label": "동성동"
+          },
+          {
+            "name": "PY0507",
+            "label": "동흥동"
+          },
+          {
+            "name": "PY0508",
+            "label": "동안1동"
+          },
+          {
+            "name": "PY0522",
+            "label": "동안2동"
+          },
+          {
+            "name": "PY0509",
+            "label": "련화1동"
+          },
+          {
+            "name": "PY0510",
+            "label": "련화2동"
+          },
+          {
+            "name": "PY0511",
+            "label": "대동문동"
+          },
+          {
+            "name": "PY0512",
+            "label": "만수동"
+          },
+          {
+            "name": "PY0513",
+            "label": "보통문동"
+          },
+          {
+            "name": "PY0514",
+            "label": "서문동"
+          },
+          {
+            "name": "PY0515",
+            "label": "서창동"
+          },
+          {
+            "name": "PY0516",
+            "label": "중성동"
+          },
+          {
+            "name": "PY0517",
+            "label": "창광동"
+          },
+          {
+            "name": "PY0518",
+            "label": "해방산동"
+          },
+          {
+            "name": "PY0519",
+            "label": "오탄동"
+          },
+          {
+            "name": "PY0520",
+            "label": "외성동"
+          }
+        ]
+      },
+      {
+        "name": "PY06",
+        "label": "만경대구역",
+        "dongs": [
+          {
+            "name": "PY0601",
+            "label": "만경대동"
+          },
+          {
+            "name": "PY0602",
+            "label": "광복1동"
+          },
+          {
+            "name": "PY0603",
+            "label": "광복2동"
+          },
+          {
+            "name": "PY0604",
+            "label": "금성1동"
+          },
+          {
+            "name": "PY0605",
+            "label": "금성2동"
+          },
+          {
+            "name": "PY0606",
+            "label": "금성3동"
+          },
+          {
+            "name": "PY0607",
+            "label": "당상1동"
+          },
+          {
+            "name": "PY0608",
+            "label": "당상2동"
+          },
+          {
+            "name": "PY0630",
+            "label": "전진동"
+          },
+          {
+            "name": "PY0609",
+            "label": "장훈1동"
+          },
+          {
+            "name": "PY0610",
+            "label": "장훈2동"
+          },
+          {
+            "name": "PY0611",
+            "label": "장훈3동"
+          },
+          {
+            "name": "PY0612",
+            "label": "축전1동"
+          },
+          {
+            "name": "PY0613",
+            "label": "축전2동"
+          },
+          {
+            "name": "PY0614",
+            "label": "칠골1동"
+          },
+          {
+            "name": "PY0615",
+            "label": "칠골2동"
+          },
+          {
+            "name": "PY0631",
+            "label": "팔골1동"
+          },
+          {
+            "name": "PY0632",
+            "label": "팔골2동"
+          },
+          {
+            "name": "PY0616",
+            "label": "칠골3동"
+          },
+          {
+            "name": "PY0617",
+            "label": "갈림길1동"
+          },
+          {
+            "name": "PY0618",
+            "label": "갈림길2동"
+          },
+          {
+            "name": "PY0634",
+            "label": "갈림길3동"
+          },
+          {
+            "name": "PY0619",
+            "label": "서산동"
+          },
+          {
+            "name": "PY0620",
+            "label": "선구자동"
+          },
+          {
+            "name": "PY0621",
+            "label": "선내동"
+          },
+          {
+            "name": "PY0622",
+            "label": "건국동"
+          },
+          {
+            "name": "PY0623",
+            "label": "금천동"
+          },
+          {
+            "name": "PY0624",
+            "label": "룡산동"
+          },
+          {
+            "name": "PY0625",
+            "label": "대평동"
+          },
+          {
+            "name": "PY0626",
+            "label": "삼흥1동"
+          },
+          {
+            "name": "PY0627",
+            "label": "삼흥2동"
+          },
+          {
+            "name": "PY0633",
+            "label": "삼흥3동"
+          },
+          {
+            "name": "PY0628",
+            "label": "원로리"
+          },
+          {
+            "name": "PY0629",
+            "label": "룡봉리"
+          },
+          {
+            "name": "PY0635",
+            "label": "룡악산동"
+          },
+          {
+            "name": "PY0636",
+            "label": "봉수동"
+          }
+        ]
+      },
+      {
+        "name": "PY07",
+        "label": "선교구역",
+        "dongs": [
+          {
+            "name": "PY0701",
+            "label": "선교1동"
+          },
+          {
+            "name": "PY0702",
+            "label": "선교2동"
+          },
+          {
+            "name": "PY0703",
+            "label": "선교3동"
+          },
+          {
+            "name": "PY0704",
+            "label": "강안1동"
+          },
+          {
+            "name": "PY0705",
+            "label": "강안2동"
+          },
+          {
+            "name": "PY0706",
+            "label": "남신1동"
+          },
+          {
+            "name": "PY0707",
+            "label": "남신2동"
+          },
+          {
+            "name": "PY0708",
+            "label": "영제동"
+          },
+          {
+            "name": "PY0709",
+            "label": "대흥동"
+          },
+          {
+            "name": "PY0710",
+            "label": "률곡1동"
+          },
+          {
+            "name": "PY0711",
+            "label": "률곡2동"
+          },
+          {
+            "name": "PY0712",
+            "label": "무진1동"
+          },
+          {
+            "name": "PY0713",
+            "label": "무진2동"
+          },
+          {
+            "name": "PY0714",
+            "label": "산업1동"
+          },
+          {
+            "name": "PY0715",
+            "label": "산업2동"
+          },
+          {
+            "name": "PY0716",
+            "label": "장충1동"
+          },
+          {
+            "name": "PY0717",
+            "label": "장충2동"
+          },
+          {
+            "name": "PY0718",
+            "label": "등메1동"
+          },
+          {
+            "name": "PY0719",
+            "label": "등메2동"
+          },
+          {
+            "name": "PY0720",
+            "label": "웃메동"
+          },
+          {
+            "name": "PY0721",
+            "label": "등메3동"
+          }
+        ]
+      },
+      {
+        "name": "PY08",
+        "label": "동대원구역",
+        "dongs": [
+          {
+            "name": "PY0801",
+            "label": "동대원1동"
+          },
+          {
+            "name": "PY0802",
+            "label": "동대원2동"
+          },
+          {
+            "name": "PY0803",
+            "label": "동신1동"
+          },
+          {
+            "name": "PY0804",
+            "label": "동신2동"
+          },
+          {
+            "name": "PY0805",
+            "label": "동신3동"
+          },
+          {
+            "name": "PY0806",
+            "label": "문신1동"
+          },
+          {
+            "name": "PY0807",
+            "label": "문신2동"
+          },
+          {
+            "name": "PY0808",
+            "label": "신흥1동"
+          },
+          {
+            "name": "PY0809",
+            "label": "신흥2동"
+          },
+          {
+            "name": "PY0810",
+            "label": "신흥3동"
+          },
+          {
+            "name": "PY0811",
+            "label": "새살림동"
+          },
+          {
+            "name": "PY0812",
+            "label": "대신동"
+          },
+          {
+            "name": "PY0813",
+            "label": "신리동"
+          },
+          {
+            "name": "PY0814",
+            "label": "률동"
+          },
+          {
+            "name": "PY0815",
+            "label": "랭천1동"
+          },
+          {
+            "name": "PY0816",
+            "label": "랭천2동"
+          },
+          {
+            "name": "PY0817",
+            "label": "삼마1동"
+          },
+          {
+            "name": "PY0818",
+            "label": "삼마2동"
+          }
+        ]
+      },
+      {
+        "name": "PY09",
+        "label": "대동강구역",
+        "dongs": [
+          {
+            "name": "PY0901",
+            "label": "릉라1동"
+          },
+          {
+            "name": "PY0902",
+            "label": "릉라2동"
+          },
+          {
+            "name": "PY0903",
+            "label": "동문1동"
+          },
+          {
+            "name": "PY0904",
+            "label": "동문2동"
+          },
+          {
+            "name": "PY0905",
+            "label": "옥류1동"
+          },
+          {
+            "name": "PY0906",
+            "label": "옥류2동"
+          },
+          {
+            "name": "PY0907",
+            "label": "옥류3동"
+          },
+          {
+            "name": "PY0908",
+            "label": "청류1동"
+          },
+          {
+            "name": "PY0909",
+            "label": "청류2동"
+          },
+          {
+            "name": "PY0910",
+            "label": "청류3동"
+          },
+          {
+            "name": "PY0911",
+            "label": "문수1동"
+          },
+          {
+            "name": "PY0912",
+            "label": "문수2동"
+          },
+          {
+            "name": "PY0913",
+            "label": "문수3동"
+          },
+          {
+            "name": "PY0914",
+            "label": "문흥1동"
+          },
+          {
+            "name": "PY0915",
+            "label": "문흥2동"
+          },
+          {
+            "name": "PY0916",
+            "label": "북수동"
+          },
+          {
+            "name": "PY0917",
+            "label": "사곡1동"
+          },
+          {
+            "name": "PY0918",
+            "label": "사곡2동"
+          },
+          {
+            "name": "PY0919",
+            "label": "소룡1동"
+          },
+          {
+            "name": "PY0920",
+            "label": "소룡2동"
+          },
+          {
+            "name": "PY0921",
+            "label": "탑제1동"
+          },
+          {
+            "name": "PY0922",
+            "label": "탑제2동"
+          },
+          {
+            "name": "PY0923",
+            "label": "탑제3동"
+          },
+          {
+            "name": "PY0924",
+            "label": "의암동"
+          },
+          {
+            "name": "PY0925",
+            "label": "대동강동"
+          }
+        ]
+      },
+      {
+        "name": "PY10",
+        "label": "사동구역",
+        "dongs": [
+          {
+            "name": "PY1019",
+            "label": "사동1동"
+          },
+          {
+            "name": "PY1020",
+            "label": "사동2동"
+          },
+          {
+            "name": "PY1021",
+            "label": "사동3동"
+          },
+          {
+            "name": "PY1022",
+            "label": "송류1동"
+          },
+          {
+            "name": "PY1023",
+            "label": "송류2동"
+          },
+          {
+            "name": "PY1001",
+            "label": "송신1동"
+          },
+          {
+            "name": "PY1002",
+            "label": "송신2동"
+          },
+          {
+            "name": "PY1004",
+            "label": "송화1동"
+          },
+          {
+            "name": "PY1005",
+            "label": "송화2동"
+          },
+          {
+            "name": "PY1006",
+            "label": "남산동"
+          },
+          {
+            "name": "PY1007",
+            "label": "두루1동"
+          },
+          {
+            "name": "PY1008",
+            "label": "두루2동"
+          },
+          {
+            "name": "PY1009",
+            "label": "미림동"
+          },
+          {
+            "name": "PY1010",
+            "label": "삼골동"
+          },
+          {
+            "name": "PY1011",
+            "label": "석정동"
+          },
+          {
+            "name": "PY1012",
+            "label": "휴암동"
+          },
+          {
+            "name": "PY1013",
+            "label": "장천리"
+          },
+          {
+            "name": "PY1014",
+            "label": "금탄리"
+          },
+          {
+            "name": "PY1015",
+            "label": "덕동리"
+          },
+          {
+            "name": "PY1016",
+            "label": "대원리"
+          },
+          {
+            "name": "PY1017",
+            "label": "리현리"
+          },
+          {
+            "name": "PY1018",
+            "label": "오류리"
+          }
+        ]
+      },
+      {
+        "name": "PY11",
+        "label": "대성구역",
+        "dongs": [
+          {
+            "name": "PY1101",
+            "label": "룡남동"
+          },
+          {
+            "name": "PY1102",
+            "label": "룡북동"
+          },
+          {
+            "name": "PY1103",
+            "label": "룡흥1동"
+          },
+          {
+            "name": "PY1104",
+            "label": "룡흥2동"
+          },
+          {
+            "name": "PY1105",
+            "label": "룡흥3동"
+          },
+          {
+            "name": "PY1106",
+            "label": "미산1동"
+          },
+          {
+            "name": "PY1107",
+            "label": "미산2동"
+          },
+          {
+            "name": "PY1108",
+            "label": "미암동"
+          },
+          {
+            "name": "PY1109",
+            "label": "대성동"
+          },
+          {
+            "name": "PY1110",
+            "label": "안학동"
+          },
+          {
+            "name": "PY1111",
+            "label": "청암동"
+          },
+          {
+            "name": "PY1112",
+            "label": "청호동"
+          },
+          {
+            "name": "PY1113",
+            "label": "림흥동"
+          },
+          {
+            "name": "PY1114",
+            "label": "갑문동"
+          },
+          {
+            "name": "PY1115",
+            "label": "고산동"
+          },
+          {
+            "name": "PY1116",
+            "label": "미산3동"
+          },
+          {
+            "name": "PY1117",
+            "label": "려명동"
+          },
+          {
+            "name": "PY1118",
+            "label": "봉도리"
+          }
+        ]
+      },
+      {
+        "name": "PY12",
+        "label": "삼석구역",
+        "dongs": [
+          {
+            "name": "PY1201",
+            "label": "성문1동"
+          },
+          {
+            "name": "PY1202",
+            "label": "성문2동"
+          },
+          {
+            "name": "PY1203",
+            "label": "문영동"
+          },
+          {
+            "name": "PY1204",
+            "label": "장수원동"
+          },
+          {
+            "name": "PY1205",
+            "label": "광덕리"
+          },
+          {
+            "name": "PY1206",
+            "label": "도덕리"
+          },
+          {
+            "name": "PY1207",
+            "label": "삼석리"
+          },
+          {
+            "name": "PY1208",
+            "label": "삼성리"
+          },
+          {
+            "name": "PY1209",
+            "label": "원신리"
+          },
+          {
+            "name": "PY1210",
+            "label": "원흥리"
+          },
+          {
+            "name": "PY1211",
+            "label": "호남리"
+          }
+        ]
+      },
+      {
+        "name": "PY13",
+        "label": "룡성구역",
+        "dongs": [
+          {
+            "name": "PY1301",
+            "label": "룡성1동"
+          },
+          {
+            "name": "PY1302",
+            "label": "룡성2동"
+          },
+          {
+            "name": "PY1303",
+            "label": "룡궁1동"
+          },
+          {
+            "name": "PY1304",
+            "label": "룡궁2동"
+          },
+          {
+            "name": "PY1305",
+            "label": "룡추1동"
+          },
+          {
+            "name": "PY1306",
+            "label": "룡추2동"
+          },
+          {
+            "name": "PY1307",
+            "label": "룡문동"
+          },
+          {
+            "name": "PY1308",
+            "label": "청계동"
+          },
+          {
+            "name": "PY1309",
+            "label": "화성동"
+          },
+          {
+            "name": "PY1310",
+            "label": "마산동"
+          },
+          {
+            "name": "PY1311",
+            "label": "명오동"
+          },
+          {
+            "name": "PY1312",
+            "label": "대천동"
+          },
+          {
+            "name": "PY1313",
+            "label": "림원동"
+          },
+          {
+            "name": "PY1314",
+            "label": "중이동"
+          },
+          {
+            "name": "PY1315",
+            "label": "어은동"
+          },
+          {
+            "name": "PY1316",
+            "label": "백양동"
+          },
+          {
+            "name": "PY1317",
+            "label": "은하동"
+          }
+        ]
+      },
+      {
+        "name": "PY14",
+        "label": "형제산구역",
+        "dongs": [
+          {
+            "name": "PY1401",
+            "label": "서포1동"
+          },
+          {
+            "name": "PY1402",
+            "label": "서포2동"
+          },
+          {
+            "name": "PY1403",
+            "label": "서포3동"
+          },
+          {
+            "name": "PY1404",
+            "label": "서룡동"
+          },
+          {
+            "name": "PY1405",
+            "label": "서일동"
+          },
+          {
+            "name": "PY1406",
+            "label": "석전동"
+          },
+          {
+            "name": "PY1407",
+            "label": "신간1동"
+          },
+          {
+            "name": "PY1408",
+            "label": "신간2동"
+          },
+          {
+            "name": "PY1409",
+            "label": "신간3동"
+          },
+          {
+            "name": "PY1410",
+            "label": "상당동"
+          },
+          {
+            "name": "PY1412",
+            "label": "하당1동"
+          },
+          {
+            "name": "PY1413",
+            "label": "하당2동"
+          },
+          {
+            "name": "PY1414",
+            "label": "학산동"
+          },
+          {
+            "name": "PY1415",
+            "label": "광명동"
+          },
+          {
+            "name": "PY1416",
+            "label": "신미동"
+          },
+          {
+            "name": "PY1417",
+            "label": "제산리"
+          },
+          {
+            "name": "PY1418",
+            "label": "천남리"
+          },
+          {
+            "name": "PY1419",
+            "label": "형산리"
+          },
+          {
+            "name": "PY1424",
+            "label": "중당1동"
+          },
+          {
+            "name": "PY1420",
+            "label": "중당2동"
+          },
+          {
+            "name": "PY1423",
+            "label": "전위1동"
+          },
+          {
+            "name": "PY1422",
+            "label": "전위2동"
+          },
+          {
+            "name": "PY1421",
+            "label": "전위3동"
+          }
+        ]
+      },
+      {
+        "name": "PY15",
+        "label": "락랑구역",
+        "dongs": [
+          {
+            "name": "PY1501",
+            "label": "락랑1동"
+          },
+          {
+            "name": "PY1502",
+            "label": "락랑2동"
+          },
+          {
+            "name": "PY1503",
+            "label": "락랑3동"
+          },
+          {
+            "name": "PY1504",
+            "label": "정백1동"
+          },
+          {
+            "name": "PY1505",
+            "label": "정백2동"
+          },
+          {
+            "name": "PY1506",
+            "label": "관문1동"
+          },
+          {
+            "name": "PY1507",
+            "label": "관문2동"
+          },
+          {
+            "name": "PY1508",
+            "label": "관문3동"
+          },
+          {
+            "name": "PY1509",
+            "label": "승리1동"
+          },
+          {
+            "name": "PY1510",
+            "label": "승리2동"
+          },
+          {
+            "name": "PY1511",
+            "label": "승리3동"
+          },
+          {
+            "name": "PY1512",
+            "label": "정오1동"
+          },
+          {
+            "name": "PY1513",
+            "label": "정오2동"
+          },
+          {
+            "name": "PY1514",
+            "label": "충성1동"
+          },
+          {
+            "name": "PY1515",
+            "label": "충성2동"
+          },
+          {
+            "name": "PY1516",
+            "label": "충성3동"
+          },
+          {
+            "name": "PY1517",
+            "label": "토성1동"
+          },
+          {
+            "name": "PY1518",
+            "label": "토성2동"
+          },
+          {
+            "name": "PY1519",
+            "label": "토성3동"
+          },
+          {
+            "name": "PY1520",
+            "label": "전진동"
+          },
+          {
+            "name": "PY1521",
+            "label": "동산1동"
+          },
+          {
+            "name": "PY1533",
+            "label": "동산2동"
+          },
+          {
+            "name": "PY1522",
+            "label": "두단동"
+          },
+          {
+            "name": "PY1523",
+            "label": "원암동"
+          },
+          {
+            "name": "PY1524",
+            "label": "긴골동"
+          },
+          {
+            "name": "PY1525",
+            "label": "금대리"
+          },
+          {
+            "name": "PY1526",
+            "label": "남사리"
+          },
+          {
+            "name": "PY1527",
+            "label": "룡호리"
+          },
+          {
+            "name": "PY1528",
+            "label": "류소리"
+          },
+          {
+            "name": "PY1529",
+            "label": "벽지도리"
+          },
+          {
+            "name": "PY1530",
+            "label": "보성리"
+          },
+          {
+            "name": "PY1531",
+            "label": "송남리"
+          },
+          {
+            "name": "PY1532",
+            "label": "중단리"
+          },
+          {
+            "name": "PY1534",
+            "label": "장교리"
+          }
+        ]
+      },
+      {
+        "name": "PY16",
+        "label": "력포구역",
+        "dongs": [
+          {
+            "name": "PY1601",
+            "label": "력포동"
+          },
+          {
+            "name": "PY1614",
+            "label": "건교리"
+          },
+          {
+            "name": "PY1602",
+            "label": "장진1동"
+          },
+          {
+            "name": "PY1603",
+            "label": "장진2동"
+          },
+          {
+            "name": "PY1604",
+            "label": "소신동"
+          },
+          {
+            "name": "PY1615",
+            "label": "장풍리"
+          },
+          {
+            "name": "PY1605",
+            "label": "능금동"
+          },
+          {
+            "name": "PY1606",
+            "label": "대현동"
+          },
+          {
+            "name": "PY1607",
+            "label": "룡산리"
+          },
+          {
+            "name": "PY1608",
+            "label": "류현리"
+          },
+          {
+            "name": "PY1613",
+            "label": "병풍리"
+          },
+          {
+            "name": "PY1609",
+            "label": "소삼정리"
+          },
+          {
+            "name": "PY1610",
+            "label": "세우물리"
+          },
+          {
+            "name": "PY1611",
+            "label": "추당리"
+          },
+          {
+            "name": "PY1612",
+            "label": "양음리"
+          }
+        ]
+      },
+      {
+        "name": "PY17",
+        "label": "순안구역",
+        "dongs": [
+          {
+            "name": "PY1701",
+            "label": "남읍동"
+          },
+          {
+            "name": "PY1702",
+            "label": "대양동"
+          },
+          {
+            "name": "PY1703",
+            "label": "석박동"
+          },
+          {
+            "name": "PY1704",
+            "label": "안정동"
+          },
+          {
+            "name": "PY1705",
+            "label": "순안동"
+          },
+          {
+            "name": "PY1706",
+            "label": "구서리"
+          },
+          {
+            "name": "PY1707",
+            "label": "성일리"
+          },
+          {
+            "name": "PY1708",
+            "label": "룡복리"
+          },
+          {
+            "name": "PY1709",
+            "label": "산양리"
+          },
+          {
+            "name": "PY1710",
+            "label": "안흥리"
+          },
+          {
+            "name": "PY1711",
+            "label": "오산리"
+          },
+          {
+            "name": "PY1712",
+            "label": "재경리"
+          },
+          {
+            "name": "PY1713",
+            "label": "천동리"
+          },
+          {
+            "name": "PY1714",
+            "label": "택암리"
+          },
+          {
+            "name": "PY1715",
+            "label": "아달로동자구"
+          }
+        ]
+      },
+      {
+        "name": "PY18",
+        "label": "은정구역",
+        "dongs": [
+          {
+            "name": "PY1801",
+            "label": "과학1동"
+          },
+          {
+            "name": "PY1802",
+            "label": "과학2동"
+          },
+          {
+            "name": "PY1803",
+            "label": "광명동"
+          },
+          {
+            "name": "PY1804",
+            "label": "배산동"
+          },
+          {
+            "name": "PY1805",
+            "label": "을밀동"
+          },
+          {
+            "name": "PY1806",
+            "label": "위성동"
+          }
+        ]
+      },
+      {
+        "name": "PY19",
+        "label": "강동군",
+        "dongs": [
+          {
+            "name": "PY1901",
+            "label": "강동읍"
+          },
+          {
+            "name": "PY1902",
+            "label": "고비로동자구"
+          },
+          {
+            "name": "PY1903",
+            "label": "남강로동자구"
+          },
+          {
+            "name": "PY1904",
+            "label": "대리로동자구"
+          },
+          {
+            "name": "PY1905",
+            "label": "송가로동자구"
+          },
+          {
+            "name": "PY1906",
+            "label": "상리로동자구"
+          },
+          {
+            "name": "PY1908",
+            "label": "림경로동자구"
+          },
+          {
+            "name": "PY1909",
+            "label": "구빈리"
+          },
+          {
+            "name": "PY1910",
+            "label": "동리"
+          },
+          {
+            "name": "PY1911",
+            "label": "란산리"
+          },
+          {
+            "name": "PY1932",
+            "label": "령남로동자구"
+          },
+          {
+            "name": "PY1925",
+            "label": "룡명리"
+          },
+          {
+            "name": "PY1913",
+            "label": "문흥리"
+          },
+          {
+            "name": "PY1915",
+            "label": "맥전리"
+          },
+          {
+            "name": "PY1927",
+            "label": "봉문리"
+          },
+          {
+            "name": "PY1916",
+            "label": "봉화리"
+          },
+          {
+            "name": "PY1917",
+            "label": "삼등리"
+          },
+          {
+            "name": "PY1926",
+            "label": "송금리"
+          },
+          {
+            "name": "PY1931",
+            "label": "속추로동자구"
+          },
+          {
+            "name": "PY1919",
+            "label": "순창리"
+          },
+          {
+            "name": "PY1933",
+            "label": "아달로동자구"
+          },
+          {
+            "name": "PY1920",
+            "label": "태잠리"
+          },
+          {
+            "name": "PY1934",
+            "label": "월포리"
+          },
+          {
+            "name": "PY1921",
+            "label": "화강리"
+          },
+          {
+            "name": "PY1922",
+            "label": "향목리"
+          },
+          {
+            "name": "PY1923",
+            "label": "경신리"
+          },
+          {
+            "name": "PY1924",
+            "label": "하단리"
+          },
+          {
+            "name": "PY1928",
+            "label": "하리로동자구"
+          },
+          {
+            "name": "PY1930",
+            "label": "흑령로동자구"
+          },
+          {
+            "name": "PY1935",
+            "label": "비류강로동자구"
+          },
+          {
+            "name": "PY1936",
+            "label": "금산로동자구"
+          },
+          {
+            "name": "PY1937",
+            "label": "상등리"
+          },
+          {
+            "name": "PY1938",
+            "label": "태창리"
+          }
+        ]
+      },
+      {
+        "name": "PY20",
+        "label": "강남군",
+        "dongs": [
+          {
+            "name": "PY2001",
+            "label": "간천리"
+          },
+          {
+            "name": "PY2002",
+            "label": "강남읍"
+          },
+          {
+            "name": "PY2003",
+            "label": "고천리"
+          },
+          {
+            "name": "PY2004",
+            "label": "고읍리"
+          },
+          {
+            "name": "PY2005",
+            "label": "당곡리"
+          },
+          {
+            "name": "PY2006",
+            "label": "동정리"
+          },
+          {
+            "name": "PY2007",
+            "label": "룡곡리"
+          },
+          {
+            "name": "PY2008",
+            "label": "룡포리"
+          },
+          {
+            "name": "PY2009",
+            "label": "류포리"
+          },
+          {
+            "name": "PY2010",
+            "label": "마정리"
+          },
+          {
+            "name": "PY2011",
+            "label": "문암리"
+          },
+          {
+            "name": "PY2012",
+            "label": "상암리"
+          },
+          {
+            "name": "PY2013",
+            "label": "석호리"
+          },
+          {
+            "name": "PY2014",
+            "label": "신정리"
+          },
+          {
+            "name": "PY2015",
+            "label": "신흥리"
+          },
+          {
+            "name": "PY2016",
+            "label": "장교리"
+          },
+          {
+            "name": "PY2017",
+            "label": "영진리"
+          },
+          {
+            "name": "PY2018",
+            "label": "이산리"
+          },
+          {
+            "name": "PY2019",
+            "label": "룡교리"
+          }
+        ]
+      },
+      {
+        "name": "PY21",
+        "label": "화성구역",
+        "dongs": [
+          {
+            "name": "PY2101",
+            "label": "화성1동"
+          },
+          {
+            "name": "PY2102",
+            "label": "화성2동"
+          },
+          {
+            "name": "PY2103",
+            "label": "화성3동"
+          },
+          {
+            "name": "PY2104",
+            "label": "금릉1동"
+          },
+          {
+            "name": "PY2105",
+            "label": "금릉2동"
+          },
+          {
+            "name": "PY2106",
+            "label": "청화1동"
+          },
+          {
+            "name": "PY2107",
+            "label": "청화2동"
+          },
+          {
+            "name": "PY2108",
+            "label": "화원1동"
+          },
+          {
+            "name": "PY2109",
+            "label": "화원2동"
+          },
+          {
+            "name": "PY2110",
+            "label": "화원3동"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="shimmer_clip_to_children" format="boolean"/>
+        <attr name="shimmer_colored" format="boolean"/>
+        <attr name="shimmer_base_color" format="color"/>
+        <attr name="shimmer_highlight_color" format="color"/>
+        <attr name="shimmer_base_alpha" format="float"/>
+        <attr name="shimmer_highlight_alpha" format="float"/>
+        <attr name="shimmer_auto_start" format="boolean"/>
+        <attr name="shimmer_duration" format="integer"/>
+        <attr name="shimmer_repeat_count" format="integer"/>
+        <attr name="shimmer_repeat_delay" format="integer"/>
+        <attr name="shimmer_repeat_mode" format="enum">
+        <enum name="restart" value="1"/>
+        <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="shimmer_start_delay" format="integer"/>
+        <attr name="shimmer_direction" format="enum">
+        <enum name="left_to_right" value="0"/>
+        <enum name="top_to_bottom" value="1"/>
+        <enum name="right_to_left" value="2"/>
+        <enum name="bottom_to_top" value="3"/>
+        </attr>
+        <attr name="shimmer_dropoff" format="float"/>
+        <attr name="shimmer_fixed_width" format="dimension"/>
+        <attr name="shimmer_fixed_height" format="dimension"/>
+        <attr name="shimmer_intensity" format="float"/>
+        <attr name="shimmer_width_ratio" format="float"/>
+        <attr name="shimmer_height_ratio" format="float"/>
+        <attr name="shimmer_shape" format="enum">
+        <enum name="linear" value="0"/>
+        <enum name="radial" value="1"/>
+        </attr>
+        <attr name="shimmer_tilt" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="PickerView">
+        <attr name="wheel_dividerColor" format="color">
+        </attr>
+        <attr name="wheel_dividerWidth" format="dimension">
+        </attr>
+        <attr name="wheel_gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="wheel_lineSpacingMultiplier" format="float">
+        </attr>
+        <attr name="wheel_textColorCenter" format="color">
+        </attr>
+        <attr name="wheel_textColorOut" format="color">
+        </attr>
+        <attr name="wheel_textSize" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RealtimeBlurView">
+        <attr name="realtimeBlurRadius" format="dimension">
+        </attr>
+        <attr name="realtimeDownsampleFactor" format="float">
+        </attr>
+        <attr name="realtimeOverlayColor" format="color">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RecyclerTabLayout">
+        <attr name="rtl_scrollEnabled" format="boolean">
+        </attr>
+        <attr name="rtl_tabBackground" format="reference">
+        </attr>
+        <attr name="rtl_tabIndicatorColor" format="color">
+        </attr>
+        <attr name="rtl_tabIndicatorHeight" format="dimension">
+        </attr>
+        <attr name="rtl_tabIndicatorType" format="boolean">
+        </attr>
+        <attr name="rtl_tabMaxWidth" format="dimension">
+        </attr>
+        <attr name="rtl_tabMinWidth" format="dimension">
+        </attr>
+        <attr name="rtl_tabOnScreenLimit" format="integer">
+        </attr>
+        <attr name="rtl_tabPadding" format="dimension">
+        </attr>
+        <attr name="rtl_tabPaddingBottom" format="dimension">
+        </attr>
+        <attr name="rtl_tabPaddingEnd" format="dimension">
+        </attr>
+        <attr name="rtl_tabPaddingStart" format="dimension">
+        </attr>
+        <attr name="rtl_tabPaddingTop" format="dimension">
+        </attr>
+        <attr name="rtl_tabSelectedTextColor" format="color">
+        </attr>
+        <attr name="rtl_tabTextAppearance" format="reference">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ActionLink">
+        <attr name="al_distance" format="dimension">
+        </attr>
+        <attr name="al_drawable" format="reference">
+        </attr>
+        <attr name="al_drawable_color" format="color">
+        </attr>
+        <attr name="al_drawable_size" format="dimension">
+        </attr>
+        <attr name="al_drawable_start" format="boolean">
+        </attr>
+        <attr name="al_rippleAlpha" format="float">
+        </attr>
+        <attr name="al_ripple_radius" format="boolean">
+        </attr>
+        <attr name="al_text" format="string">
+        </attr>
+        <attr name="al_text_color" format="color">
+        </attr>
+        <attr name="al_text_size" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AccountNavItem">
+        <attr name="ani_drawable_end_visible" format="string">
+        </attr>
+        <attr name="ani_drawable_start" format="reference">
+        </attr>
+        <attr name="ani_drawable_start_rotation" format="float">
+        </attr>
+        <attr name="ani_is_nav" format="boolean">
+        </attr>
+        <attr name="ani_profile" format="boolean">
+        </attr>
+        <attr name="ani_text" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DrawerArrowToggle">
+        <attr name="arrowHeadLength" format="dimension">
+        </attr>
+        <attr name="arrowShaftLength" format="dimension">
+        </attr>
+        <attr name="barLength" format="dimension"/>
+        <attr name="color" format="color"/>
+        <attr name="drawableSize" format="dimension">
+        </attr>
+        <attr name="gapBetweenBars" format="dimension">
+        </attr>
+        <attr name="spinBars" format="boolean">
+        </attr>
+        <attr name="thickness" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Button">
+        <attr name="b_color" format="color">
+        </attr>
+        <attr name="b_corner_radius" format="dimension">
+        </attr>
+        <attr name="b_outline" format="boolean">
+        </attr>
+        <attr name="b_outline_width" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Badge">
+        <attr name="badgeGravity">
+            <enum name="BOTTOM_END" value="8388693" />
+            <enum name="BOTTOM_START" value="8388691" />
+            <enum name="TOP_END" value="8388661" />
+            <enum name="TOP_START" value="8388659" />
+        </attr>
+        <attr name="badgeStyle" format="reference">
+        </attr>
+        <attr name="badgeTextColor" format="color">
+    </attr>
+    </declare-styleable>
+    <declare-styleable name="CheckBoxDrawable">
+        <attr name="bd_animDuration" format="reference|integer">
+        </attr>
+        <attr name="bd_boxSize" format="reference|dimension">
+        </attr>
+        <attr name="bd_cornerRadius" format="reference|dimension">
+        </attr>
+        <attr name="bd_height" format="reference|dimension">
+        </attr>
+        <attr name="bd_strokeColor" format="reference|color">
+        </attr>
+        <attr name="bd_strokeSize" format="reference|dimension">
+        </attr>
+        <attr name="bd_tickColor" format="reference|color">
+        </attr>
+        <attr name="bd_width" format="reference|dimension">
+        </attr>
+    </declare-styleable>
+<!--    <declare-styleable name="ExtendedFloatingActionButton_Behavior_Layout">-->
+<!--        <attr name="behavior_autoHide" format="boolean">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_autoShrink" format="boolean">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_draggable" format="boolean">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_expandedOffset" format="reference|dimension">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_fitToContents" format="boolean">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_halfExpandedRatio" format="reference|float">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_hideable" format="boolean">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_overlapTop" format="dimension">-->
+<!--        </attr>-->
+<!--        <attr name="behavior_peekHeight" format="dimension">-->
+<!--            <enum name="auto" value="-1" />-->
+<!--        </attr>-->
+<!--        <attr name="behavior_saveFlags">-->
+<!--            <flag name="all" value="-1" />-->
+<!--            <flag name="fitToContents" value="2" />-->
+<!--            <flag name="hideable" value="4" />-->
+<!--            <flag name="none" value="0" />-->
+<!--            <flag name="peekHeight" value="1" />-->
+<!--            <flag name="skipCollapsed" value="8" />-->
+<!--        </attr>-->
+<!--        <attr name="behavior_skipCollapsed" format="boolean">-->
+<!--        </attr>-->
+<!--    </declare-styleable>-->
+    <declare-styleable name="BottomNavigationView">
+        <attr name="bnv_active_color" format="color">
+        </attr>
+        <attr name="bnv_active_text_size" format="dimension">
+        </attr>
+        <attr name="bnv_inactive_text_size" format="dimension">
+        </attr>
+        <attr name="bnv_shadow" format="boolean">
+        </attr>
+        <attr name="bnv_with_text" format="boolean">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ButtonToggle">
+        <attr name="bt_active_bg" format="reference">
+        </attr>
+        <attr name="bt_drawable_color" format="color">
+        </attr>
+        <attr name="bt_drawable_image" format="reference">
+        </attr>
+        <attr name="bt_drawable_start" format="boolean">
+        </attr>
+        <attr name="bt_padding_horizontal" format="dimension">
+        </attr>
+        <attr name="bt_padding_vertical" format="dimension">
+        </attr>
+        <attr name="bt_text" format="string">
+        </attr>
+        <attr name="bt_text_active_color" format="color">
+        </attr>
+        <attr name="bt_text_color" format="color">
+        </attr>
+        <attr name="bt_text_size" format="dimension">
+        </attr>
+        <attr name="bt_unActive_bg" format="reference">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_animator" format="reference">
+        </attr>
+        <attr name="ci_animator_reverse" format="reference">
+        </attr>
+        <attr name="ci_drawable" format="reference">
+        </attr>
+        <attr name="ci_drawable_unselected" format="reference">
+        </attr>
+        <attr name="ci_gravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+        <attr name="ci_height" format="dimension">
+        </attr>
+        <attr name="ci_margin" format="dimension">
+        </attr>
+        <attr name="ci_orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ci_width" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_color" format="color">
+        </attr>
+        <attr name="civ_border_overlay" format="boolean">
+        </attr>
+        <attr name="civ_border_width" format="dimension">
+        </attr>
+        <attr name="civ_fill_color" format="color">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ColorSwatch">
+        <attr name="cs_color" format="color">
+        </attr>
+        <attr name="cs_index" format="integer">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CustomAttribute">
+        <attr name="customBoolean" format="boolean">
+        </attr>
+        <attr name="customColorDrawableValue" format="color">
+        </attr>
+        <attr name="customColorValue" format="color">
+        </attr>
+        <attr name="customDimension" format="dimension">
+        </attr>
+        <attr name="customFloatValue" format="float">
+        </attr>
+        <attr name="customIntegerValue" format="integer">
+        </attr>
+        <attr name="customNavigationLayout" format="reference">
+        </attr>
+        <attr name="customPixelDimension" format="dimension">
+        </attr>
+        <attr name="customStringValue" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MaterialCalendar">
+        <attr name="dayInvalidStyle" format="reference">
+        </attr>
+        <attr name="daySelectedStyle" format="reference">
+        </attr>
+        <attr name="dayStyle" format="reference">
+        </attr>
+        <attr name="dayTodayStyle" format="reference">
+        </attr>
+        <attr name="defaultDuration" format="integer">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="EditForm">
+        <attr name="ef_background" format="reference">
+        </attr>
+        <attr name="ef_drawable_color" format="color">
+        </attr>
+        <attr name="ef_drawable_end" format="reference">
+        </attr>
+        <attr name="ef_drawable_padding" format="dimension">
+        </attr>
+        <attr name="ef_drawable_size" format="dimension">
+        </attr>
+        <attr name="ef_drawable_start" format="reference">
+        </attr>
+        <attr name="ef_end_padding" format="dimension">
+        </attr>
+        <attr name="ef_focusable" format="boolean">
+        </attr>
+        <attr name="ef_height" format="dimension">
+        </attr>
+        <attr name="ef_input_padding" format="dimension">
+        </attr>
+        <attr name="ef_length_limited" format="integer">
+        </attr>
+        <attr name="ef_placeholder" format="string">
+        </attr>
+        <attr name="ef_required" format="boolean">
+        </attr>
+        <attr name="ef_searchable" format="boolean">
+        </attr>
+        <attr name="ef_text" format="string">
+        </attr>
+        <attr name="ef_text_size" format="dimension">
+        </attr>
+        <attr name="ef_type">
+            <enum name="ef_date" value="20" />
+            <enum name="ef_none" value="0" />
+            <enum name="ef_number" value="2" />
+            <enum name="ef_text" value="1" />
+            <enum name="ef_textPassword" value="129" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ProductPrice">
+         <attr name="pp_currency" format="string">
+        </attr>
+        <attr name="pp_discount" format="string">
+        </attr>
+        <attr name="pp_gravity" format="string">
+        </attr>
+        <attr name="pp_maxPrice" format="string">
+        </attr>
+        <attr name="pp_minPrice" format="string">
+        </attr>
+        <attr name="pp_orientation" format="string">
+        </attr>
+        <attr name="pp_priceSize" format="string">
+        </attr>
+        <attr name="pp_regularPrice" format="string">
+        </attr>
+        <attr name="pp_salePrice" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PriceText">
+        <attr name="pt_currency" format="string">
+        </attr>
+        <attr name="pt_currency_unit" format="boolean">
+        </attr>
+        <attr name="pt_hideEmpty" format="boolean">
+        </attr>
+        <attr name="pt_price" format="string">
+        </attr>
+        <attr name="pt_size" format="dimension">
+        </attr>
+        <attr name="pt_unit_size" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="QuantityInput">
+        <attr name="qi_circle_size" format="dimension">
+        </attr>
+        <attr name="qi_icon_color" format="color">
+        </attr>
+        <attr name="qi_icon_size" format="dimension">
+        </attr>
+        <attr name="qi_label_size" format="dimension">
+        </attr>
+        <attr name="qi_label_width" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SearchView">
+        <attr name="queryBackground" format="reference">
+        </attr>
+        <attr name="queryHint" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RowTextForm">
+        <attr name="rtf_label_text" format="string">
+        </attr>
+        <attr name="rtf_text" format="string">
+        </attr>
+        <attr name="rtf_width" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="VendorItem">
+        <attr name="vi_delivery" format="float">
+        </attr>
+        <attr name="vi_deliveryColor" format="integer">
+        </attr>
+        <attr name="vi_deliveryImage" format="reference">
+        </attr>
+        <attr name="vi_explainColor" format="integer">
+        </attr>
+        <attr name="vi_explainImage" format="reference">
+        </attr>
+        <attr name="vi_service" format="float">
+        </attr>
+        <attr name="vi_serviceColor" format="integer">
+        </attr>
+        <attr name="vi_serviceImage" format="reference">
+        </attr>
+        <attr name="vi_support" format="float">
+        </attr>
+        <attr name="vi_vendorCardImg" format="reference">
+        </attr>
+        <attr name="vi_vendorEnterYear" format="string">
+        </attr>
+        <attr name="vi_vendorLevel" format="integer">
+        </attr>
+        <attr name="vi_vendorLogoImg" format="reference">
+        </attr>
+        <attr name="vi_vendorName" format="string">
+        </attr>
+        <attr name="vi_vendorType" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="VendorLevel">
+        <attr name="point" format="integer">
+        </attr>
+        <attr name="size" format="dimension">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PasscodeView">
+        <attr name="firstInputTip" format="string">
+        </attr>
+        <attr name="normalStateColor" format="color">
+        </attr>
+        <attr name="numberTextColor" format="color">
+        </attr>
+        <attr name="passcodeLength" format="integer">
+        </attr>
+        <attr name="textSize" format="integer">
+        </attr>
+        <attr name="textSpace" format="integer">
+        </attr>
+        <attr name="waitingInSeconds" format="integer">
+        </attr>
+        <attr name="wrongLengthTip" format="string">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SwitchView">
+        <attr name="checked" format="integer">
+        </attr>
+        <attr name="color_off" format="integer">
+        </attr>
+        <attr name="color_on" format="integer">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AutoCompleteTextView">
+        <attr name="ac_background" format="reference">
+        </attr>
+        <attr name="ac_drawable_color" format="color">
+        </attr>
+        <attr name="ac_drawable_padding" format="dimension">
+        </attr>
+        <attr name="ac_drawable_size" format="dimension">
+        </attr>
+        <attr name="ac_drawable_start" format="boolean">
+        </attr>
+        <attr name="ac_end_padding" format="dimension">
+        </attr>
+        <attr name="ac_height" format="dimension">
+        </attr>
+        <attr name="ac_input_padding" format="dimension">
+        </attr>
+        <attr name="ac_length_limited" format="integer">
+        </attr>
+        <attr name="ac_placeholder" format="string">
+        </attr>
+        <attr name="ac_text" format="string">
+        </attr>
+        <attr name="ac_text_size" format="dimension">
+        </attr>
+        <attr name="ac_threshold" format="integer">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallBeat" value="17" />
+            <flag name="BallClipRotate" value="2" />
+            <flag name="BallClipRotateMultiple" value="5" />
+            <flag name="BallClipRotatePulse" value="3" />
+            <flag name="BallGridBeat" value="26" />
+            <flag name="BallGridPulse" value="1" />
+            <flag name="BallPulse" value="0" />
+            <flag name="BallPulseRise" value="6" />
+            <flag name="BallPulseSync" value="16" />
+            <flag name="BallRotate" value="7" />
+            <flag name="BallScale" value="12" />
+            <flag name="BallScaleMultiple" value="15" />
+            <flag name="BallScaleRipple" value="20" />
+            <flag name="BallScaleRippleMultiple" value="21" />
+            <flag name="BallSpinFadeLoader" value="22" />
+            <flag name="BallTrianglePath" value="11" />
+            <flag name="BallZigZag" value="9" />
+            <flag name="BallZigZagDeflect" value="10" />
+            <flag name="CubeTransition" value="8" />
+            <flag name="LineScale" value="13" />
+            <flag name="LineScaleParty" value="14" />
+            <flag name="LineScalePulseOut" value="18" />
+            <flag name="LineScalePulseOutRapid" value="19" />
+            <flag name="LineSpinFadeLoader" value="23" />
+            <flag name="Pacman" value="25" />
+            <flag name="SemiCircleSpin" value="27" />
+            <flag name="SquareSpin" value="4" />
+            <flag name="TriangleSkewSpin" value="24" />
+        </attr>
+        <attr name="indicatorColor" format="reference|color">
+        </attr>
+    </declare-styleable>
+</resources>

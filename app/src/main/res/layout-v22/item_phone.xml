@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_8sdp">
+    <com.jeil.emarket.components.textview.TextView
+        android:textSize="@dimen/font_11_5"
+        android:id="@+id/ctv_label"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mrl_phone_number"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            app:mrl_rippleRoundedCorners="@dimen/_30sdp"
+            style="@style/RippleStyleDark">
+            <com.jeil.emarket.components.textview.TextView
+                android:textSize="@dimen/font_11_5"
+                android:id="@+id/ctv_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+        <com.jeil.emarket.components.textview.TextView
+            android:textSize="@dimen/font_11_5"
+            android:id="@+id/ctv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:lineSpacingExtra="@dimen/_6sdp"
+            android:layout_marginStart="@dimen/_8sdp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
